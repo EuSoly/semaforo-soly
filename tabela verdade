@@ -1,0 +1,9 @@
+A  B  P | Decisao | Estado de saida | Binario (NS LO PED)
+0  0  0 | OCIOSO  | TUDO_VERMELHO   | 100 100 10
+0  0  1 | PED     | PED_VERDE       | 100 100 01
+0  1  0 | LO      | LO_VERDE        | 100 001 10
+0  1  1 | PED     | PED_VERDE       | 100 100 01
+1  0  0 | NS      | NS_VERDE        | 001 100 10
+1  0  1 | PED     | PED_VERDE       | 100 100 01
+1  1  0 | NS      | NS_VERDE        | 001 100 10
+1  1  1 | PED     | PED_VERDE       | 100 100 01
